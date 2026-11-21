@@ -49,14 +49,17 @@ After 10,000 epochs the network classifies all four inputs correctly:
 | (1, 0) | 1 | 0.999 |
 | (1, 1) | 0 | 0.001 |
 
-The loss curve has a clear shape. It stays flat at about 0.693 (the loss of always answering 0.5) for roughly the first 3,000 epochs, then drops sharply once the hidden neurons find a useful split, and keeps shrinking slowly after that. The notebook plots the full curve.
+The loss curve has a clear shape. It stays flat at about 0.693 (the loss of always answering 0.5) for roughly the first 3,000 epochs, then drops sharply once the hidden neurons find a useful split, and keeps shrinking slowly after that.
+
+![Loss vs epochs](notebooks/loss_curve.png)
 
 ## Project structure
 
 ```
 nn-from-scratch/
 ├── notebooks/
-│   └── xor_network.ipynb   # the whole project, run top to bottom
+│   ├── xor_network.ipynb   # the whole project, run top to bottom
+│   └── loss_curve.png      # loss plot saved by the notebook
 ├── requirements.txt
 ├── LICENSE
 └── README.md
