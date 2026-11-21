@@ -1,0 +1,20 @@
+# Claude (local settings, session files)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
