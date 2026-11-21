@@ -1,4 +1,4 @@
-# nn-from-scratch
+# xor-neural-network
 
 A small neural network built from scratch with NumPy, with no deep learning library, that learns the **XOR** (exclusive or) function.
 
@@ -56,7 +56,7 @@ The loss curve has a clear shape. It stays flat at about 0.693 (the loss of alwa
 ## Project structure
 
 ```
-nn-from-scratch/
+xor-neural-network/
 ├── notebooks/
 │   ├── xor_network.ipynb   # the whole project, run top to bottom
 │   └── loss_curve.png      # loss plot saved by the notebook
@@ -70,8 +70,8 @@ nn-from-scratch/
 Tested with Python 3.11.
 
 ```bash
-git clone https://github.com/mohammadSous/nn-from-scratch.git
-cd nn-from-scratch
+git clone https://github.com/mohammadSous/xor-neural-network.git
+cd xor-neural-network
 
 python -m venv .venv
 # Windows (PowerShell):
